@@ -1,4 +1,4 @@
 import './style.css';
-import { animationInit } from 'src/lessons/lesson-animation';
+import { resizingInit } from 'src/lessons/resizing/lesson-resizing';
 
-animationInit();
+resizingInit();
