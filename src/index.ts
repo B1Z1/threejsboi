@@ -1,4 +1,4 @@
 import './style.css';
-import { resizingInit } from 'src/lessons/resizing/lesson-resizing';
+import { geometryInit } from 'src/lessons/geometry/lesson-geometry';
 
-resizingInit();
+geometryInit();
