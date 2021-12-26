@@ -1,4 +1,4 @@
 import './style.css';
-import { geometryInit } from 'src/lessons/geometry/lesson-geometry';
+import { debuggingInit } from 'src/lessons/debugging/lesson-debugging';
 
-geometryInit();
+debuggingInit();

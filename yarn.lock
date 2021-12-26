@@ -931,6 +931,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@types/dat.gui@^0.7.7":
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/@types/dat.gui/-/dat.gui-0.7.7.tgz#2125aedfaa190364c5a50b0447858a7e159aea2e"
+  integrity sha512-CxLCme0He5Jk3uQwfO/fGZMyNhb/ypANzqX0yU9lviBQMlen5SOvQTBQ/Cd9x5mFlUAK5Tk8RgvTyLj1nYkz+w==
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.1.tgz#8dc390a7b4f9dd9f1284629efce982e41612116e"
@@ -3401,6 +3406,11 @@ levn@^0.4.1:
   dependencies:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
+
+lil-gui@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/lil-gui/-/lil-gui-0.14.0.tgz#9bfa4553ec7a36b87510ea71f2c2cb5a9d0b0691"
+  integrity sha512-pWdM6KK9xhUyGBQt6tgamvP4S5I1tcqCtI1SqJKwCBYwL55s6C9QTBaHYZwBcbfRdeu0LxNeCCbfD29nV4ROzA==
 
 loader-runner@^4.2.0:
   version "4.2.0"
