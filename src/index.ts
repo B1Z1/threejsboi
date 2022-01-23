@@ -1,4 +1,4 @@
 import './style.css';
-import { debuggingInit } from 'src/lessons/debugging/lesson-debugging';
+import { texturesInit } from 'src/lessons/textures/lesson-textures';
 
-debuggingInit();
+texturesInit();
