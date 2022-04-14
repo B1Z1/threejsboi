@@ -62,7 +62,6 @@ export function texturesInit(): void {
     colorTexture.center.y = 0.5;
 
     colorTexture.rotation = Math.PI / 4;
-    // colorTexture.minFilter = THREE.NearestFilter;
     colorTexture.generateMipmaps = false;
     colorTexture.minFilter = THREE.NearestFilter;
     colorTexture.magFilter = THREE.NearestFilter;
