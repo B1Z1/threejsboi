@@ -6,6 +6,7 @@ import { debuggingInit } from 'src/lessons/debugging/lesson-debugging';
 import { geometryInit } from 'src/lessons/geometry/lesson-geometry';
 import { resizingInit } from 'src/lessons/resizing/lesson-resizing';
 import { animationInit } from 'src/lessons/animation/lesson-animation';
+import { lightInit } from 'src/lessons/light/lesson-light';
 
 // cameraInit();
 // geometryInit();
@@ -13,4 +14,5 @@ import { animationInit } from 'src/lessons/animation/lesson-animation';
 // debuggingInit();
 // resizingInit();
 // texturesInit();
-materialInit();
+// materialInit();
+lightInit();
