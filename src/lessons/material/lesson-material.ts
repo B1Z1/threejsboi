@@ -1,7 +1,7 @@
+import gsap from 'gsap';
+import { GUI } from 'lil-gui';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
-import { GUI } from 'lil-gui';
-import gsap from 'gsap';
 
 export function materialInit(): void {
 	/**
@@ -66,9 +66,9 @@ export function materialInit(): void {
 	/**
 	 * Object
 	 */
-	const sphere = new THREE.SphereBufferGeometry(.5, 16, 16);
-	const plane = new THREE.PlaneBufferGeometry(1, 1, 100, 100);
-	const torus = new THREE.TorusBufferGeometry(.3, .2, 16, 32);
+	const sphere = new THREE.SphereGeometry(.5, 16, 16);
+	const plane = new THREE.PlaneGeometry(1, 1, 100, 100);
+	const torus = new THREE.TorusGeometry(.3, .2, 16, 32);
 
 	// const material = new THREE.MeshBasicMaterial({ map: doorTexture });
 	// material.alphaMap = alphaTexture;
@@ -121,11 +121,6 @@ export function materialInit(): void {
 
 	sphereMesh.position.setX(-1.5);
 	torusMesh.position.setX(1.5);
-
-	planeMesh.geometry.setAttribute(
-		'uv2',
-		new THREE.BufferAttribute(planeMesh.geometry.attributes.uv.array, 2)
-	);
 
 	scene.add(sphereMesh);
 	scene.add(planeMesh);

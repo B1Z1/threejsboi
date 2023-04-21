@@ -46,7 +46,6 @@ export function cameraInit() {
     };
     // @ts-ignore
     orbitControl.listenToKeyEvents(window);
-    orbitControl.enableKeys = true;
 
     const render = () => {
         renderer.render(scene, camera);

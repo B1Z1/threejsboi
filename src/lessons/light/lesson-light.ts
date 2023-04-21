@@ -13,8 +13,8 @@ export function lightInit(): void {
 	 * Object
 	 */
 	const box = new THREE.BoxGeometry(1, 1, 1);
-	const sphere = new THREE.SphereBufferGeometry(.5, 32, 32);
-	const torus = new THREE.TorusBufferGeometry(.3, .2, 16, 32);
+	const sphere = new THREE.SphereGeometry(.5, 32, 32);
+	const torus = new THREE.TorusGeometry(.3, .2, 16, 32);
 	const plane = new THREE.PlaneGeometry(10, 10);
 
 	const material = new THREE.MeshStandardMaterial();
@@ -39,10 +39,10 @@ export function lightInit(): void {
 	/**
 	 * Lights
 	 */
-	// const ambientLight = new THREE.AmbientLight(0xffffff, .5);
-	//
-	// scene.add(ambientLight);
-	//
+		// const ambientLight = new THREE.AmbientLight(0xffffff, .5);
+		//
+		// scene.add(ambientLight);
+		//
 	const directionalLight = new THREE.DirectionalLight(0xffffff, .4);
 
 	directionalLight.position.set(1, 0, 0);
