@@ -5,6 +5,7 @@ import { geometryInit } from './lessons/geometry/lesson-geometry';
 import { lightInit } from './lessons/light/lesson-light';
 import { materialInit } from './lessons/material/lesson-material';
 import { resizingInit } from './lessons/resizing/lesson-resizing';
+import { shadowInit } from './lessons/shadow/lesson-shadow';
 import { texturesInit } from './lessons/textures/lesson-textures';
 import './style.css';
 
@@ -15,4 +16,5 @@ import './style.css';
 // resizingInit();
 // texturesInit();
 // materialInit();
-lightInit();
+// lightInit();
+shadowInit();
